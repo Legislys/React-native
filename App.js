@@ -7,10 +7,10 @@ export default function App() {
     <View style={styles.container}>
       <View style={styles.tasksWrapper}>
         <Text style={styles.sectionTitle}> Tytuł taska</Text>
-        <Task />
-        <Task />
-        <Task />
-        <Task />
+        <Task text='Mleko 1'/>
+        <Task text='Mleko 2'/>
+        <Task text='Milka 1'/>
+        <Task text='Milka4' />
       </View>
     </View>
   );
